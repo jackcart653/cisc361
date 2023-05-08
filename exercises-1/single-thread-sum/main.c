@@ -27,7 +27,7 @@ int main()
 	//Time calculations here
 	
 	end = clock();
-	cpu_time_taken = (float)(end - start) / CLOCKS_PER_SEC;
+	cpu_time_taken = (double)(end - start) / CLOCKS_PER_SEC;
 
 	printf("Total sum: %lld\n", sum);
 	printf("Time taken to sum all the numbers are %lf\n", cpu_time_taken);
